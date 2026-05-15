@@ -35,6 +35,10 @@ jobs:
 
       - name: Build stage-web for GitHub Pages
         env:
+          # NOTICE:
+          # stage-web currently switches router mode via this existing env key
+          # (hash history for static-host targets). Reuse it until app config
+          # adds a host-agnostic flag name.
           VITE_APP_TARGET_HUGGINGFACE_SPACE: 'true'
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
@@ -46,7 +50,7 @@ jobs:
             BASE_PATH="/${REPO_NAME}/"
           fi
 
-          pnpm -F @proj-airi/stage-web exec vite build --base "${BASE_PATH}"
+          pnpm -F @proj-airi/stage-web run build -- --base "${BASE_PATH}"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
