@@ -21,7 +21,7 @@
     "@dotenvx/dotenvx": "^1.61.1",
     "@electric-sql/pglite": "catalog:",
     "@guiiai/logg": "catalog:",
-    "@hono/node-server": "^1.19.14",
+    "@hono/node-server": "^2.0.10",
     "@hono/node-ws": "catalog:",
     "@hono/otel": "^1.1.2",
     "@moeru/eventa": "catalog:",
