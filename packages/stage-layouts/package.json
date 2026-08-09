@@ -44,7 +44,7 @@
     "@xsai/stream-transcription": "catalog:",
     "animejs": "^4.3.6",
     "colorjs.io": "^0.6.1",
-    "dompurify": "^3.4.0",
+    "dompurify": "^3.4.13",
     "localforage": "^1.10.0",
     "nanoid": "^5.1.9",
     "node-vibrant": "^4.0.4",
