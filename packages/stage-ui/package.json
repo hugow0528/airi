@@ -126,7 +126,7 @@
     "kokoro-js": "^1.2.1",
     "localforage": "^1.10.0",
     "mediabunny": "^1.40.1",
-    "nanoid": "^5.1.9",
+    "nanoid": "^5.1.16",
     "node-vibrant": "^4.0.4",
     "ofetch": "^1.5.1",
     "pinia": "catalog:",

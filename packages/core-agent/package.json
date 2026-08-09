@@ -50,7 +50,7 @@
     "@xsai/shared-chat": "catalog:",
     "@xsai/stream-text": "catalog:",
     "@xsai/tool": "catalog:",
-    "nanoid": "^5.1.9",
+    "nanoid": "^5.1.16",
     "vieval": "catalog:",
     "xsschema": "catalog:",
     "zod": "^4.3.6"
